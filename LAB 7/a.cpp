@@ -53,7 +53,7 @@ int main(){
             a[i] = make_pair(v[i], v[i].size());
         }
 
-        msort(a, 0, v.size()-1);
+        msort(a, 0, v.size() - 1);
 
         for(int i = 0; i < v.size(); i++){
             cout << a[i].first << " ";
